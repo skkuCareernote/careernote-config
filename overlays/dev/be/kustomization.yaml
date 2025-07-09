@@ -13,6 +13,6 @@ patches:
     kind: Ingress
     name: be-ingress
 images:
-- name: 
-  newName: 
+- name: stringju
+  newName: skkucn-be
   newTag: 

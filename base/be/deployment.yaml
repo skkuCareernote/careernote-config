@@ -13,7 +13,7 @@ spec:
         app.kubernetes.io/name: careernote
     spec:
       containers:
-      - image: #TODO
+      - image: stringju/skkucn-be
         imagePullPolicy: Always
         name: careernote
         ports:
