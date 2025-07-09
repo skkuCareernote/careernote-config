@@ -1,0 +1,18 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+namespace: hyunjun-careernote
+resources:
+- namespace.yaml
+- secret.yaml
+- ../../../base/be
+
+
+patches:
+- path: domain.json
+  target:
+    kind: Ingress
+    name: be-ingress
+images:
+- name: 
+  newName: 
+  newTag: 
