@@ -20,5 +20,5 @@ spec:
                 name: careernote-service
                 port:
                   number: 80
-            path: /v1
+            path: /api
             pathType: Prefix
