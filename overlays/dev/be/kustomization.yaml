@@ -10,7 +10,11 @@ patches:
 - path: domain.json
   target:
     kind: Ingress
-    name: be-ingress
+    name: careernote-ingress
+- path: nodeselect.yaml
+  target:
+    kind: Deployment
+    name: careernote-deployment
 images:
 - name: stringju
   newName: skkucn-be
