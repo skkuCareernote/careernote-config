@@ -20,13 +20,13 @@ spec:
                 name: careernote-service
                 port:
                   number: 80
-            path: /api(/|$)(.*)
+            path: /api
             pathType: Prefix
           - backend:
               service:
                 name: careernote-service
                 port:
                   number: 80
-            path: /docs(/|$)(.*)
+            path: /docs
             pathType: Prefix
             
