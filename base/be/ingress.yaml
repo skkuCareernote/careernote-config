@@ -21,6 +21,5 @@ spec:
                 name: careernote-service
                 port:
                   number: 80
-            path: /api(/|$)(.*)
+            path: /v1(/|$)(.*)
             pathType: Prefix
-            
