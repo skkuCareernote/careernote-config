@@ -23,11 +23,4 @@ spec:
                   number: 80
             path: /api(/|$)(.*)
             pathType: Prefix
-          - backend:
-              service:
-                name: careernote-service
-                port:
-                  number: 80
-            path: /docs
-            pathType: Prefix
             
