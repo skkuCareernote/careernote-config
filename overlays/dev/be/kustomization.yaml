@@ -15,6 +15,11 @@ patches:
   target:
     kind: Deployment
     name: careernote-deployment
+- path: limits.yaml
+  target:
+    kind: Deployment
+    name: careernote-deployment
+
 images:
 - name: stringju
   newName: skkucn-be
