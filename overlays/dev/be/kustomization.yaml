@@ -23,4 +23,4 @@ patches:
 images:
 - name: stringju
   newName: skkucn-be
-  newTag: 1f19ab6927578d6aad919b831fb4c0bbfe84728b
+  newTag: a36f785971cf77f9d282c7122d157ff2626921f2
