@@ -9,6 +9,15 @@ patches:
   target:
     kind: Ingress
     name: careernote-fe-ingress
+- path: nodeselect.yaml
+  target:
+    kind: Deployment
+    name: careernote-deployment
+- path: limits.yaml
+  target:
+    kind: Deployment
+    name: careernote-deployment
+
 images:
 - name: stringju/skkucn-fe
   newTag: 
