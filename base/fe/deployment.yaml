@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: careernote-fe-deployment
+spec:
+  selector:
+    matchLabels:
+      app.kubernetes.io/name: careernote-fe
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app.kubernetes.io/name: careernote-fe
+    spec:
+      containers:
+      - image: stringju/skkucn-fe
+        imagePullPolicy: Always
+        name: careernote-fe
+        ports:
+        - containerPort: 3000
