@@ -20,4 +20,4 @@ patches:
     name: careernote-deployment
 images:
 - name: stringju/skkucn-be
-  newTag: 88e61fb7e79ca1b1642b90fad169360d34663f0c
+  newTag: b5a5322e412a2b5e192337b5330ac66c0ea4b953
